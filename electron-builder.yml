@@ -1,0 +1,12 @@
+appId: com.kinki-viewer.nextron
+productName: NodeViewerApp
+copyright: Copyright © 2022 N sketch Inc
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
